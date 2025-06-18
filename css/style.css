@@ -7,21 +7,37 @@ body {
 
 h1 {
   color: #5A189A;
+  font-size: 36px;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #0077cc;
+h2 {
+  color: #333;
+  margin-top: 30px;
+  font-size: 28px;
 }
 
-nav a:hover {
-  text-decoration: underline;
+h3 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+p, ul {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+p.intro-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
 }
 
 img {
   margin-top: 20px;
   border: 2px solid #ccc;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
